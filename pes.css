@@ -1,0 +1,250 @@
+*{
+  
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: f1;
+    src: url(LEMONMILK-Bold.otf);
+}
+
+#imagem1 {
+    margin-top: 0.5%;
+    margin-right: 0;
+    width:4rem;
+    margin-left: 30rem;
+
+}
+
+
+
+
+
+
+
+
+#gostos1{
+
+    
+    background-color: rgb(167, 167, 167);
+margin: 5rem;
+display: flex;
+justify-content: space-between;
+border-top:5px black solid;
+border-bottom: 5px black solid;
+width: 85rem;
+margin-left: 0;
+padding: 2rem;
+}
+
+#bb{
+
+width: 20rem;
+
+}
+
+#i1{
+color: white;
+text-decoration: none;
+}
+
+h1{
+color: white;
+
+}
+
+
+
+#title{
+margin-left: 1rem;
+font-family: f1;
+
+}
+
+
+
+
+
+
+#subtitle{
+margin-top: 5rem;
+    font-family: f3;
+    margin-left: 1rem;
+    }
+
+
+.própria {
+    max-width: 20rem;
+    height: auto;
+  
+    border-radius: 10px;
+  
+margin-left: 33rem;
+margin-top: 3rem;
+  }
+
+ #divp{
+
+max-width: 30rem;
+
+background-color: aqua;
+box-shadow: 5px 5px 1px rgb(0, 187, 187);
+border-radius: 2%;
+padding: 1%;
+font-family: f3;
+font-size: large;
+margin: 5rem;
+margin-left: 28rem;
+ }
+
+
+
+@font-face {
+    font-family: f2;
+    src: url(Roboto-Black.ttf);
+}
+
+
+
+@font-face {
+    font-family: f3;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
+
+footer {
+margin: 0;
+    display: flex;
+    margin-bottom: 0;
+  max-height: 5rem;
+    background-color: rgb(127, 208, 255);
+    font-family: f3;
+    padding: 1%;
+}
+
+#a1:hover {
+    color: rgb(139, 255, 255);
+    transition: 1s;
+}
+
+#a2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10%;
+ 
+}
+
+#a2:hover {
+    color: rgb(139, 241, 255);
+    transition: 1s;
+}
+
+#a1 {
+    margin-left: 15%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#h2footer {
+    margin-left: 10%;
+
+    padding-left: 9%;
+    padding-right: 9%;
+    border-right: 1px solid white;
+}
+
+
+header {
+    align-items: center;
+    font-family: f1;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    padding: 1%;
+justify-content: space-around;
+}
+
+
+
+
+@media (max-width: 900px) {
+  
+
+
+
+
+
+}
+
+@media (max-width: 700px ){
+
+ 
+#bb{
+width: 30%;
+margin: 0;
+}
+
+#sa{
+width: 30%;
+margin: 0;
+}
+
+#hk{
+width: 30%;
+margin: 0;
+}
+
+
+#gostos1{
+
+display: flex;
+justify-content:space-between;
+width: 100%;
+}
+
+footer {
+    margin: 0;
+        display: grid;
+        margin-bottom: 0;
+      max-height: 30rem;
+        background-color: rgb(127, 208, 255);
+        font-family: f3;
+        padding: 5%;
+ 
+    }
+
+    #h2footer2{
+margin-top: 3rem;
+
+    }
+
+
+    #d1{
+margin:auto;
+
+    }
+
+.própria{
+    margin-left: 2rem;
+margin-bottom: 0;
+}
+
+#gostos{
+
+margin: 0;
+
+}
+
+#divp{
+
+margin: 1rem;
+margin-bottom: 10rem;
+}
+
+#a1{
+margin-left: 3%;
+
+}
+
+}
+

@@ -1,0 +1,369 @@
+  *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+  
+
+#img1{
+    border-radius: 5%;
+animation: animation 2s infinite alternate-reverse;
+    height:10rem;
+margin: 1rem;
+width:15rem;
+margin-left: 13rem;
+
+margin-top: 5rem;
+box-shadow: 5px 5px 10px rgb(177, 146, 107);
+
+}
+
+#img2{
+    border-radius: 5%;
+    animation: animation 2s infinite alternate-reverse;
+    width:15rem;
+  height:10rem;
+    margin: 1rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    box-shadow:1px 1px 10px  purple ;
+   
+    }
+    
+
+    #img3{
+        box-shadow:1px 1px 10px  bisque ;
+        border-radius: 5%;
+animation: animation 2s infinite alternate-reverse;
+        margin: 1rem;
+        width:15rem;
+                   height:10rem;
+                   margin-top: 5rem;
+        margin-left: 13rem;
+        margin-bottom: 5rem;
+   
+        }
+
+#gitimg{
+
+width: 10rem;
+margin-top: 5rem;
+animation: animation3 1s infinite alternate-reverse;
+
+}
+
+@keyframes animation {
+
+    from {
+
+        transform: translatey(0%);
+
+    }
+
+    to {
+
+        transform: translatey(5%);
+    }
+
+}
+
+
+@keyframes animation3 {
+
+    from {
+
+        transform: translatey(0%);
+
+    }
+
+    to {
+
+        transform: translatey(-20%);
+    }
+
+}
+
+
+#git{
+    margin: 7rem;
+display: flex;
+margin-top: 10rem;
+gap: 10rem;
+font-family: f1;
+}
+
+
+#animation{
+   margin-top: 15rem;
+height: 4rem;
+display: flex;
+justify-content: space-between;
+}
+
+#java{
+    animation: animation2 2s alternate-reverse infinite;
+
+}
+
+#html{
+
+    animation: animation2 2s alternate-reverse infinite;
+
+}
+
+
+
+#css{
+
+    animation: animation2 2s  alternate-reverse  infinite;
+
+}
+
+.java1{
+    animation: animation2 2s  alternate-reverse ;
+
+}
+
+
+@keyframes animation2{
+
+from{
+transform: rotateY(0deg);
+
+}
+
+to{
+
+transform: rotateY(360deg);
+
+}
+
+
+}
+
+#seta{
+    width: 6rem;
+    height: 6rem;
+
+}
+
+
+#pgit{
+    background-color: rgb(236, 236, 236);
+padding: 1rem;
+margin-top: 4rem;
+box-shadow: 5px 5px 1px gainsboro ;
+}
+
+
+
+
+        #img4{
+            box-shadow:1px 1px 10px  rgb(116, 209, 216) ;
+      
+            border-radius: 5%;
+            animation: animation 2s infinite alternate-reverse;
+margin: 1rem;
+            width:15rem;
+            height:10rem;
+            margin-left: 10rem;
+            margin-bottom: 5rem;
+            margin-top: 5rem;
+           
+            }
+
+         
+                #return{
+text-decoration: none;
+color: white;
+                }
+
+
+#container{
+
+gap: 5rem;
+    margin: 2rem;
+    border-radius: 1%;
+display: grid;
+justify-content: space-between;
+grid-template-columns:repeat(2,1fr);
+background-image: url(abstract-rainbow-6296890_1920.jpg);
+}
+
+
+footer {
+
+    display: flex;
+    margin-bottom: 0;
+  
+    background-color: rgb(127, 208, 255);
+    font-family: f3;
+    padding: 1%;
+}
+
+#h2footer {
+    margin-left: 10%;
+
+    padding-left: 9%;
+    padding-right: 9%;
+    border-right: 1px solid white;
+}
+
+  @font-face {
+    font-family: f1;
+    src: url(LEMONMILK-Bold.otf);
+}
+
+
+@font-face {
+    font-family: f2;
+    src: url(Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: f3;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+  h1 {
+    color: white;
+
+    font-size: x-large;
+}
+
+
+header {
+    align-items: center;
+    font-family: f1;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    padding: 1%;
+
+}
+
+
+#alink {
+
+    margin: 0;
+    margin-top: 1%;
+    width: 4%;
+    margin-left: 35%;
+    margin-right: 3%;
+}
+
+
+#imagem1 {
+    margin-top: 0.5%;
+    margin-right: 0;
+    width: 100%;
+    margin-left: 30%;
+
+}
+
+#h2footer2 {
+    margin-left: 17%;
+
+}
+
+
+
+#imagem2 {
+
+    margin-top: 0.5%;
+
+    width: 3%;
+
+}
+
+#div1 {
+    position: absolute;
+    display: flex;
+
+    width: 27%;
+    height: 75%;
+    font-size: x-large;
+    background-color: rgb(212, 252, 255);
+    margin-left: 60%;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 5%;
+
+
+}
+
+
+
+
+#a1 {
+    margin-left: 15%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+#c2 {
+
+    opacity: 0;
+    position: absolute;
+
+}
+
+#a1:hover {
+    color: rgb(139, 255, 255);
+    transition: 1s;
+}
+
+#a2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+#a2:hover {
+    color: rgb(139, 241, 255);
+    transition: 1s;
+}
+
+
+
+@media (max-width: 900px) {
+    #img1{
+        margin-left: 2.3rem;
+    }
+    #img2{    margin-left: 2.3rem;}
+    #img3{    margin-left: 2.3rem;}
+    #img4{    margin-left: 2.3rem;}
+    
+
+}
+
+@media (max-width: 700px ){
+
+    #opacity{
+        position: absolute;
+            opacity: 0;
+        }
+
+
+#img1{
+    margin-left: 2.3rem;
+}
+#img2{    margin-left: 2.3rem;}
+#img3{    margin-left: 2.3rem;}
+#img4{    margin-left: 2.3rem;}
+
+
+#container{
+
+display: grid;
+
+grid-template-columns:repeat(1,1fr);
+}
+
+
+}
